@@ -24,7 +24,7 @@ body {
 .nav h1,
 .slider h1 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 5vw;
+  font-size: 8vw;
   margin: 0;
   padding-bottom: 0.5rem;
   letter-spacing: 0.5rem;
@@ -38,7 +38,7 @@ h1:hover {
 }
 
 .slider h2 {
-  font-size: 2vw;
+  font-size: 3vw;
   letter-spacing: 0.3rem;
   font-family: "ROBOTO", sans-serif;
   font-weight: 300;
@@ -120,10 +120,13 @@ a {
   right: 0;
   z-index: auto;
 }
-@media (min-width: 800px) {
+@media (max-width: 800px) {
+  h3.span {
+    font-size: 4vw;
+  }
   .nav h1,
   .slider h1 {
-    font-size: 5vw;
+    font-size: 10vw;
   }
 
   .nav h2,
@@ -136,15 +139,19 @@ a {
   }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
+  h3.span {
+    font-size: 4vw;
+  }
+
   .nav h1,
   .slider h1 {
-    font-size: 8vw;
+    font-size: 14vw;
   }
 
   .nav h2,
   .slider h2 {
-    font-size: 2vw;
+    font-size: 8vw;
     letter-spacing: 0.2vw;
   }
 
@@ -237,3 +244,5 @@ a {
 .loader span:nth-child(22) {
   -webkit-animation-delay: 2.1s;
 }
+
+
